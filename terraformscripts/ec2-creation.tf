@@ -6,9 +6,9 @@ resource "aws_instance" "InstanceByTerraform" {
      ami = "ami-008b85aa3ff5c1b02"
 	 instance_type = "t2.micro"
 	 key_name = "santhoshipotturudevops"
-	 security_groups = ["launch-wizard-2"]
+	 security_groups = ["launch-wizard-14"]
 	 tags = {
-	 Name = "tomcatservers1"
+	 Name = "tomcatservers"
 	 }
 }
 
