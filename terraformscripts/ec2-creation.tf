@@ -1,14 +1,14 @@
 provider "aws"{
-region = "ap-southeast-1"
+region = "ap-south-1"
 }
 
-resource "aws_instance" "AWSInstance" {
-     ami = "ami-0319ac76374b9fe74"
+resource "aws_instance" "InstanceByTerraform" {
+     ami = "ami-008b85aa3ff5c1b02"
 	 instance_type = "t2.micro"
-	 key_name = "devopsmss"
+	 key_name = "santhoshipotturudevops"
 	 security_groups = ["launch-wizard-2"]
 	 tags = {
-	 Name = "tomcatservers"
+	 Name = "tomcatservers1"
 	 }
 }
 
