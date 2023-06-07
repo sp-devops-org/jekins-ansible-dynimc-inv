@@ -18,4 +18,4 @@ hostnames:
   - private-ip-address
 
 compose:
-  ansible_host: private_ip_address
+  ansible_hosts: private_ip_address
