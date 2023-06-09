@@ -8,7 +8,7 @@ resource "aws_instance" "InstanceByTerraform2"{
 	 key_name = "santhoshipotturudevops"
 	 security_groups = ["launch-wizard-4"]
 	 tags = {
-	 Name = "tomcatservers2"
+	 Name = "tomcatservers3"
 	 }
 }
 
